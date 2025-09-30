@@ -1,0 +1,4 @@
+robots.txt
+User-agent: *
+Disallow:
+Sitemap: https://<ваш-username>.github.io/tula-news/sitemap.xml

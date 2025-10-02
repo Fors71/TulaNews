@@ -10,7 +10,6 @@
         for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
         k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
     })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=104334189', 'ym');
-
     ym(104334189, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/104334189" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
@@ -18,7 +17,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Новости Тулы - Актуальные события города</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%231a3a6e'/><path d='M30,30 L70,30 L70,70 L30,70 Z' fill='none' stroke='%23e74c3c' stroke-width='5'/><circle cx='50' cy='50' r='10' fill='%23e74c3c'/></svg>" type="image/svg+xml">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'><rect width='120' height='120' fill='%231a3a6e'/><path d='M36,36 L84,36 L84,84 L36,84 Z' fill='none' stroke='%23e74c3c' stroke-width='5'/><circle cx='60' cy='60' r='12' fill='%23e74c3c'/></svg>" type="image/svg+xml">
     <style>
         /* Основные стили */
         * {
@@ -27,20 +26,17 @@
             box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        
         body {
             background-color: #f5f5f5;
             color: #333;
             line-height: 1.6;
             overflow-x: hidden;
         }
-        
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
-        
         /* Шапка сайта */
         header {
             background-color: #1a3a6e;
@@ -52,13 +48,11 @@
             width: 100%;
             z-index: 1000;
         }
-        
         .header-content {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        
         .logo {
             font-size: 24px;
             font-weight: bold;
@@ -67,18 +61,15 @@
             display: flex;
             align-items: center;
         }
-        
         .logo svg {
             width: 24px;
             height: 24px;
             margin-right: 8px;
         }
-        
         .search-bar {
             display: flex;
             width: 300px;
         }
-        
         .search-bar input {
             flex: 1;
             padding: 10px;
@@ -86,7 +77,6 @@
             border-radius: 4px 0 0 4px;
             font-size: 14px;
         }
-        
         .search-bar button {
             padding: 10px 15px;
             background-color: #e74c3c;
@@ -96,7 +86,6 @@
             cursor: pointer;
             font-weight: bold;
         }
-        
         /* Навигация */
         nav {
             background-color: #2c3e50;
@@ -107,17 +96,14 @@
             z-index: 999;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        
         .nav-links {
             display: flex;
             list-style: none;
             justify-content: center;
         }
-        
         .nav-links li {
             margin: 0 10px;
         }
-        
         .nav-links a {
             color: white;
             text-decoration: none;
@@ -127,12 +113,10 @@
             border-radius: 4px;
             display: block;
         }
-        
         .nav-links a:hover {
             background-color: #e74c3c;
             color: white;
         }
-        
         /* Кнопки меню */
         .menu-buttons {
             display: flex;
@@ -141,7 +125,6 @@
             padding: 10px 0;
             background-color: #34495e;
         }
-        
         .menu-button {
             background-color: #e74c3c;
             color: white;
@@ -155,17 +138,14 @@
             text-decoration: none;
             display: inline-block;
         }
-        
         .menu-button:hover {
             background-color: #c0392b;
         }
-        
         /* Главный контент */
         main {
             padding: 100px 0 50px;
             min-height: calc(100vh - 180px);
         }
-        
         /* Блок "Главное" */
         .main-news {
             background-color: white;
@@ -174,34 +154,28 @@
             margin-bottom: 30px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        
         .main-news h2 {
             color: #1a3a6e;
             margin-bottom: 20px;
             border-bottom: 2px solid #e74c3c;
             padding-bottom: 10px;
         }
-        
         .main-news-item {
             margin-bottom: 25px;
             padding-bottom: 20px;
             border-bottom: 1px dashed #eee;
         }
-        
         .main-news-item:last-child {
             border-bottom: none;
         }
-        
         .main-news-item h3 {
             color: #2c3e50;
             margin-bottom: 10px;
         }
-        
         .main-news-item p {
             color: #666;
             margin-bottom: 15px;
         }
-        
         .main-news-item .read-more {
             color: #e74c3c;
             text-decoration: none;
@@ -210,20 +184,16 @@
             display: inline-flex;
             align-items: center;
         }
-        
         .main-news-item .read-more:hover {
             text-decoration: underline;
         }
-        
         .main-news-item .read-more svg {
             margin-left: 5px;
             transition: transform 0.3s;
         }
-        
         .main-news-item .read-more:hover svg {
             transform: translateX(3px);
         }
-        
         /* Лента новостей */
         .news-feed {
             background-color: white;
@@ -232,34 +202,28 @@
             margin-bottom: 30px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        
         .news-feed h2 {
             color: #1a3a6e;
             margin-bottom: 20px;
             border-bottom: 2px solid #e74c3c;
             padding-bottom: 10px;
         }
-        
         .news-item {
             margin-bottom: 20px;
             padding-bottom: 15px;
             border-bottom: 1px dashed #eee;
         }
-        
         .news-item:last-child {
             border-bottom: none;
         }
-        
         .news-item h3 {
             color: #2c3e50;
             margin-bottom: 8px;
         }
-        
         .news-item p {
             color: #666;
             margin-bottom: 12px;
         }
-        
         .news-item .read-more {
             color: #e74c3c;
             text-decoration: none;
@@ -268,20 +232,16 @@
             display: inline-flex;
             align-items: center;
         }
-        
         .news-item .read-more:hover {
             text-decoration: underline;
         }
-        
         .news-item .read-more svg {
             margin-left: 5px;
             transition: transform 0.3s;
         }
-        
         .news-item .read-more:hover svg {
             transform: translateX(3px);
         }
-        
         /* Новости России */
         .russia-news {
             background-color: white;
@@ -290,34 +250,28 @@
             margin-bottom: 30px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        
         .russia-news h2 {
             color: #1a3a6e;
             margin-bottom: 20px;
             border-bottom: 2px solid #e74c3c;
             padding-bottom: 10px;
         }
-        
         .russia-news-item {
             margin-bottom: 15px;
             padding-bottom: 15px;
             border-bottom: 1px dashed #eee;
         }
-        
         .russia-news-item:last-child {
             border-bottom: none;
         }
-        
         .russia-news-item h3 {
             color: #2c3e50;
             margin-bottom: 8px;
         }
-        
         .russia-news-item p {
             color: #666;
             margin-bottom: 12px;
         }
-        
         .russia-news-item .read-more {
             color: #e74c3c;
             text-decoration: none;
@@ -326,26 +280,21 @@
             display: inline-flex;
             align-items: center;
         }
-        
         .russia-news-item .read-more:hover {
             text-decoration: underline;
         }
-        
         .russia-news-item .read-more svg {
             margin-left: 5px;
             transition: transform 0.3s;
         }
-        
         .russia-news-item .read-more:hover svg {
             transform: translateX(3px);
         }
-        
         /* Разделы для прокрутки */
         .section {
             padding: 50px 0;
             scroll-margin-top: 100px;
         }
-        
         #proisshestviya,
         #obshchestvo,
         #afisha {
@@ -355,34 +304,28 @@
             margin-bottom: 30px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        
         .section h2 {
             color: #1a3a6e;
             margin-bottom: 20px;
             border-bottom: 2px solid #e74c3c;
             padding-bottom: 10px;
         }
-        
         .section-item {
             margin-bottom: 15px;
             padding-bottom: 15px;
             border-bottom: 1px dashed #eee;
         }
-        
         .section-item:last-child {
             border-bottom: none;
         }
-        
         .section-item h3 {
             color: #2c3e50;
             margin-bottom: 8px;
         }
-        
         .section-item p {
             color: #666;
             margin-bottom: 12px;
         }
-        
         .section-item .read-more {
             color: #e74c3c;
             text-decoration: none;
@@ -391,20 +334,16 @@
             display: inline-flex;
             align-items: center;
         }
-        
         .section-item .read-more:hover {
             text-decoration: underline;
         }
-        
         .section-item .read-more svg {
             margin-left: 5px;
             transition: transform 0.3s;
         }
-        
         .section-item .read-more:hover svg {
             transform: translateX(3px);
         }
-        
         /* Результаты поиска */
         .search-results {
             margin: 20px 0;
@@ -414,32 +353,26 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             display: none;
         }
-        
         .search-results h2 {
             color: #1a3a6e;
             margin-bottom: 15px;
         }
-        
         .search-item {
             margin-bottom: 15px;
             padding-bottom: 15px;
             border-bottom: 1px dashed #eee;
         }
-        
         .search-item:last-child {
             border-bottom: none;
         }
-        
         .search-item h3 {
             color: #2c3e50;
             margin-bottom: 8px;
         }
-        
         .search-item p {
             color: #666;
             margin-bottom: 12px;
         }
-        
         .search-item .read-more {
             color: #e74c3c;
             text-decoration: none;
@@ -448,20 +381,16 @@
             display: inline-flex;
             align-items: center;
         }
-        
         .search-item .read-more:hover {
             text-decoration: underline;
         }
-        
         .search-item .read-more svg {
             margin-left: 5px;
             transition: transform 0.3s;
         }
-        
         .search-item .read-more:hover svg {
             transform: translateX(3px);
         }
-        
         /* Подписка на рассылку */
         .newsletter {
             background-color: #1a3a6e;
@@ -471,17 +400,14 @@
             margin-bottom: 30px;
             text-align: center;
         }
-        
         .newsletter h2 {
             margin-bottom: 15px;
         }
-        
         .newsletter-form {
             display: flex;
             max-width: 500px;
             margin: 0 auto;
         }
-        
         .newsletter-form input {
             flex: 1;
             padding: 12px;
@@ -489,7 +415,6 @@
             border-radius: 4px 0 0 4px;
             font-size: 14px;
         }
-        
         .newsletter-form button {
             padding: 12px 20px;
             background-color: #e74c3c;
@@ -499,7 +424,6 @@
             cursor: pointer;
             font-weight: bold;
         }
-        
         /* Футер с контактной информацией */
         footer {
             background-color: #1a3a6e;
@@ -507,13 +431,11 @@
             padding: 40px 0 20px;
             text-align: center;
         }
-        
         .footer-content {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
-        
         .footer-section {
             display: flex;
             flex-wrap: wrap;
@@ -521,20 +443,17 @@
             margin-bottom: 30px;
             text-align: left;
         }
-        
         .footer-column {
             flex: 1;
             min-width: 250px;
             margin: 15px;
         }
-        
         .footer-column h3 {
             color: #ecf0f1;
             margin-bottom: 15px;
             border-bottom: 2px solid #e74c3c;
             padding-bottom: 8px;
         }
-        
         .footer-column p,
         .footer-column a {
             color: #bdc3c7;
@@ -543,17 +462,14 @@
             text-decoration: none;
             transition: color 0.3s;
         }
-        
         .footer-column a:hover {
             color: #e74c3c;
         }
-        
         .social-links {
             display: flex;
             justify-content: center;
             margin-bottom: 20px;
         }
-        
         .social-links a {
             display: inline-block;
             width: 36px;
@@ -567,24 +483,20 @@
             text-decoration: none;
             transition: background-color 0.3s;
         }
-        
         .social-links a:hover {
             background-color: #e74c3c;
         }
-        
         .copyright {
             font-size: 14px;
             color: #bdc3c7;
             border-top: 1px solid rgba(255,255,255,0.1);
             padding-top: 20px;
         }
-
         .contact-container {
             display: flex;
             gap: 50px;
             margin-top: 40px;
         }
-
         .contact-form {
             flex: 1;
             background-color: white;
@@ -593,7 +505,6 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.08);
             border: 1px solid #eaeaea;
         }
-
         .contact-info {
             flex: 1;
             background-color: white;
@@ -602,7 +513,6 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.08);
             border: 1px solid #eaeaea;
         }
-
         .contact-info h3 {
             color: #1a3a6e;
             margin-bottom: 20px;
@@ -610,7 +520,6 @@
             border-bottom: 2px solid #e74c3c;
             font-weight: 600;
         }
-
         .info-item {
             display: flex;
             align-items: center;
@@ -618,7 +527,6 @@
             color: #555;
             font-size: 15px;
         }
-
         .info-item svg {
             width: 20px;
             height: 20px;
@@ -626,13 +534,11 @@
             color: #e74c3c;
             flex-shrink: 0;
         }
-
         .social-icons {
             display: flex;
             gap: 12px;
             margin-top: 20px;
         }
-
         .social-icons a {
             display: flex;
             align-items: center;
@@ -646,18 +552,15 @@
             text-decoration: none;
             border: 1px solid #e9ecef;
         }
-
         .social-icons a:hover {
             background-color: #e74c3c;
             color: white;
             transform: translateY(-3px);
             box-shadow: 0 5px 15px rgba(231, 76, 60, 0.2);
         }
-
         .form-group {
             margin-bottom: 20px;
         }
-
         .form-group label {
             display: block;
             margin-bottom: 8px;
@@ -665,7 +568,6 @@
             font-weight: 600;
             font-size: 14px;
         }
-
         .form-group input,
         .form-group textarea {
             width: 100%;
@@ -676,18 +578,15 @@
             transition: all 0.3s ease;
             outline: none;
         }
-
         .form-group input:focus,
         .form-group textarea:focus {
             border-color: #e74c3c;
             box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.15);
         }
-
         .form-group textarea {
             min-height: 150px;
             resize: vertical;
         }
-
         .submit-button {
             width: 100%;
             padding: 15px;
@@ -701,84 +600,68 @@
             transition: all 0.3s ease;
             margin-top: 10px;
         }
-
         .submit-button:hover {
             background-color: #c0392b;
             transform: translateY(-2px);
             box-shadow: 0 6px 15px rgba(231, 76, 60, 0.3);
         }
-        
         /* Мобильная адаптация */
         @media (max-width: 768px) {
             .header-content {
                 flex-direction: column;
                 text-align: center;
             }
-            
             .search-bar {
                 width: 100%;
                 margin-top: 15px;
             }
-            
             .nav-links {
                 flex-direction: column;
                 align-items: center;
             }
-            
             .nav-links li {
                 margin: 5px 0;
             }
-            
             .menu-buttons {
                 flex-direction: column;
             }
-            
             .menu-button {
                 margin: 5px 0;
                 width: 100%;
                 max-width: 250px;
             }
-            
             .newsletter-form {
                 flex-direction: column;
                 width: 100%;
             }
-            
             .newsletter-form input,
             .newsletter-form button {
                 border-radius: 4px;
                 margin-bottom: 10px;
             }
-            
             .footer-section {
                 flex-direction: column;
                 align-items: center;
             }
-            
             .footer-column {
                 min-width: 100%;
                 margin: 10px 0;
             }
-            
             .main-news,
             .news-feed,
             .russia-news,
             .section {
                 padding: 20px;
             }
-
             .contact-container {
                 flex-direction: column;
                 gap: 30px;
             }
-    
             .contact-form,
             .contact-info {
                 padding: 20px;
             }
 }
-       
-        
         /* Модальное окно расширенной новости */
         .modal {
             display: none;
@@ -791,7 +674,6 @@
             overflow: auto;
             background-color: rgba(0,0,0,0.8);
         }
-        
         .modal-content {
             background-color: white;
             margin: 5% auto;
@@ -804,7 +686,6 @@
             position: relative;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
         }
-        
         .close-modal {
             color: #aaa;
             float: right;
@@ -815,35 +696,29 @@
             top: 15px;
             right: 20px;
         }
-        
         .close-modal:hover {
             color: #000;
         }
-        
         .modal-content h2 {
             color: #1a3a6e;
             margin-bottom: 20px;
             border-bottom: 2px solid #e74c3c;
             padding-bottom: 10px;
         }
-        
         .modal-content h3 {
             color: #2c3e50;
             margin-bottom: 15px;
         }
-        
         .modal-content p {
             margin-bottom: 15px;
             line-height: 1.8;
         }
-        
         .modal-content .date {
             color: #666;
             font-style: italic;
             margin-bottom: 20px;
             display: block;
         }
-        
         .modal-content .back-link {
             display: inline-block;
             margin-top: 20px;
@@ -851,7 +726,6 @@
             text-decoration: none;
             font-weight: 600;
         }
-        
         .modal-content .back-link:hover {
             text-decoration: underline;
         }
@@ -875,7 +749,6 @@
             </div>
         </div>
     </header>
-    
     <!-- Навигация -->
     <nav>
         <ul class="nav-links">
@@ -885,7 +758,6 @@
             <li><a href="#afisha">Афиша</a></li>
         </ul>
     </nav>
-    
     <!-- Кнопки меню -->
     <div class="menu-buttons">
         <a href="#glavnoe" class="menu-button">Главная</a>
@@ -895,159 +767,132 @@
         <a href="#about" class="menu-button">О сайте</a>
         <a href="#contacts" class="menu-button">Контакты</a>
     </div>
-    
     <!-- Главный контент -->
     <main class="container">
         <!-- Блок "Главное" -->
         <section id="glavnoe" class="section">
             <h2>Главное сегодня</h2>
             <div class="main-news-item">
-                <h3>В Туле открылся новый культурный центр на базе бывшего завода</h3>
-                <p>На месте старого машиностроительного завода в центре города открылся современный культурный комплекс с театром, выставочными залами и коворкингом.</p>
-                <span class="read-more" data-modal="modal1">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>Дмитрий Миляев: В Тульской области формируется желание людей проявлять себя творчески</h3>
+                <p>Губернатор Тульской области Дмитрий Миляев отметил, что в регионе наблюдается рост интереса к творческим проектам и инициативам среди жителей.</p>
+                <span class="read-more" data-modal="modal1">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
             <div class="main-news-item">
-                <h3>Тульские школьники победили на всероссийской олимпиаде по физике</h3>
-                <p>Ученики школы №17 Тулы заняли первое место в всероссийской олимпиаде по физике среди старшеклассников.</p>
-                <span class="read-more" data-modal="modal2">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>Почта России помогла 260 жителям Тульской области стать донорами костного мозга</h3>
+                <p>В рамках специальной акции Почта России организовала сбор информации о потенциальных донорах, благодаря чему 260 жителей региона получили возможность помочь больным людям. </p>
+                <span class="read-more" data-modal="modal2">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
         </section>
-        
         <!-- Лента последних новостей -->
         <section class="news-feed">
             <h2>Последние новости Тулы</h2>
             <div class="news-item">
-                <h3>В Туле прошла акция "Чистый город"</h3>
-                <p>Более 500 волонтеров приняли участие в экологической акции по уборке парков и набережных.</p>
-                <span class="read-more" data-modal="modal3">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>В Туле стартовала бесплатная Школа походов для молодежи и не только</h3>
+                <p>Руслан Аветисов сообщил о запуске бесплатной Школы походов, которая открыла свои двери для всех желающих научиться основам выживания в природе и организации походов. </p>
+                <span class="read-more" data-modal="modal3">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
             <div class="news-item">
-                <h3>Открыт новый пешеходный мост через реку Упа</h3>
-                <p>Современный пешеходный мост соединил два района города, значительно сократив время пути для жителей.</p>
-                <span class="read-more" data-modal="modal4">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>В Тульской области в новом учебном году будет организован транспорт для более 10 тысяч школьников</h3>
+                <p>В региональном правительстве сообщили, что в рамках подготовки к новому учебному году закуплено 72 новых автобуса для перевозки школьников по районам области. </p>
+                <span class="read-more" data-modal="modal4">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
             <div class="news-item">
-                <h3>В Туле запущена электробусная линия</h3>
-                <p>Первая электробусная линия соединила железнодорожный вокзал с центром города.</p>
-                <span class="read-more" data-modal="modal5">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>Как подготовить огород к зиме: на песчаных и бедных грунтах полезно добавить органику</h3>
+                <p>Специалисты рекомендуют добавлять навоз или компост на песчаных и бедных грунтах, чтобы удержать влагу и насытить почву питательными веществами перед зимним периодом. </p>
+                <span class="read-more" data-modal="modal5">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
             <div class="news-item">
-                <h3>Тульский завод "Металлопрокат" получил премию за качество</h3>
-                <p>Предприятие стало лауреатом национальной премии "Российское качество" за высокие стандарты производства.</p>
-                <span class="read-more" data-modal="modal6">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>В запертой квартире в Заречье от голода умерли собаки</h3>
+                <p>В закрытой квартире дома №9 по ул. Галкина в Туле почти три недели были заперты две немецкие овчарки, предположительно, со щенками. </p>
+                <span class="read-more" data-modal="modal6">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
             <div class="news-item">
-                <h3>В Туле состоится международный фестиваль тульского пряника</h3>
-                <p>С 15 по 17 сентября 2025 года в городе пройдет фестиваль, объединяющий производителей пряника из разных регионов России и зарубежья.</p>
-                <span class="read-more" data-modal="modal7">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>Соседи: Трупы погибших собак из запертой квартиры не вывезли</h3>
+                <p>Жильцы дома сообщили, что трупы животных так и не вывезли из квартиры, несмотря на то, что она закрыта, а отопление работает, что приводит к разложению останков. </p>
+                <span class="read-more" data-modal="modal7">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
         </section>
-        
         <!-- Новости России -->
         <section class="russia-news">
             <h2>Новости России</h2>
             <div class="russia-news-item">
-                <h3>Президент подписал закон о повышении пенсий с 1 января 2026 года</h3>
-                <p>С 1 января 2026 года пенсионеры получат индексацию на 8,5%. Правительство также объявило о дополнительных выплатах для ветеранов.</p>
-                <span class="read-more" data-modal="modal8">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>Главные федеральные новости, события, происшествия, репортажи</h3>
+                <p>В России продолжаются важные события, которые затрагивают все регионы страны, включая Тульскую область. </p>
+                <span class="read-more" data-modal="modal8">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
             <div class="russia-news-item">
-                <h3>В Москве открылась крупнейшая в стране станция метро</h3>
-                <p>Новая станция "Восточный экспресс" стала самой протяженной в России. Она соединяет несколько районов столицы и рассчитана на 100 тыс. пассажиров в день.</p>
-                <span class="read-more" data-modal="modal9">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>Папа может все, и даже вместо мамы в декрете быть</h3>
+                <p>Психолог рассказала, как отцу стать главным помощником до и после родов, поделившись ценными советами для современных семей. </p>
+                <span class="read-more" data-modal="modal9">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
             <div class="russia-news-item">
-                <h3>Россия ввела новые ограничения на экспорт стратегических товаров</h3>
-                <p>Правительство расширило список товаров, экспорт которых требует специального разрешения, включая компоненты для высокотехнологичного оборудования.</p>
-                <span class="read-more" data-modal="modal10">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>Экзамены на водительское удостоверение усложняют, а ДТП</h3>
+                <p>В связи с увеличением числа дорожных происшествий, Министерство внутренних дел рассматривает возможность усложнения экзаменов на получение водительских прав. </p>
+                <span class="read-more" data-modal="modal10">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
             <div class="russia-news-item">
-                <h3>Запущен новый проект по сохранению исторического наследия</h3>
-                <p>Федеральный фонд культуры начал масштабную программу реставрации памятников архитектуры в 15 регионах страны, включая Тульскую область.</p>
-                <span class="read-more" data-modal="modal11">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>Коды от «Госуслуг» теперь будут приходить с задержкой</h3>
+                <p>На портале «Госуслуги» введено новшество для противодействия интернет-мошенникам, из-за чего коды подтверждения теперь приходят с небольшой задержкой. </p>
+                <span class="read-more" data-modal="modal11">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
         </section>
-        
-        <!-- Результаты поиска -->
-        <div id="search-results" class="search-results">
-            <h2>Результаты поиска</h2>
-            <div class="search-item">
-                <h3>В Туле открылся новый культурный центр на базе бывшего завода</h3>
-                <p>На месте старого машиностроительного завода в центре города открылся современный культурный комплекс с театром, выставочными залами и коворкингом.</p>
-                <span class="read-more" data-modal="modal1">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
-            </div>
-            <div class="search-item">
-                <h3>Тульские школьники победили на всероссийской олимпиаде по физике</h3>
-                <p>Ученики школы №17 Тулы заняли первое место в всероссийской олимпиаде по физике среди старшеклассников.</p>
-                <span class="read-more" data-modal="modal2">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
-            </div>
-            <div class="search-item">
-                <h3>В Туле прошла акция "Чистый город"</h3>
-                <p>Более 500 волонтеров приняли участие в экологической акции по уборке парков и набережных.</p>
-                <span class="read-more" data-modal="modal3">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
-            </div>
-        </div>
-        
         <!-- Раздел Происшествия -->
         <section id="proisshestviya" class="section">
             <h2>Происшествия</h2>
             <div class="section-item">
-                <h3>ДТП на трассе Тула-Москва: три человека ранены</h3>
-                <p>Вчера вечером произошло серьезное ДТП на трассе Тула-Москва в районе села Новоселово.</p>
-                <span class="read-more" data-modal="modal12">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>В запертой квартире в Заречье от голода умерли собаки</h3>
+                <p>В закрытой квартире дома №9 по ул. Галкина в Туле почти три недели были заперты две немецкие овчарки, предположительно, со щенками. </p>
+                <span class="read-more" data-modal="modal6">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
             <div class="section-item">
-                <h3>Пожар в жилом доме на улице Ленина</h3>
-                <p>В ночь на 15 сентября 2025 года произошел пожар в пятиэтажном жилом доме на улице Ленина.</p>
-                <span class="read-more" data-modal="modal13">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>Соседи: Трупы погибших собак из запертой квартиры не вывезли</h3>
+                <p>Жильцы дома сообщили, что трупы животных так и не вывезли из квартиры, несмотря на то, что она закрыта, а отопление работает, что приводит к разложению останков. </p>
+                <span class="read-more" data-modal="modal7">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
             <div class="section-item">
-                <h3>Кражи в магазинах центра города</h3>
-                <p>За последнюю неделю в центре Тулы было зарегистрировано 7 случаев краж из магазинов.</p>
-                <span class="read-more" data-modal="modal14">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>Экзамены на водительское удостоверение усложняют, а ДТП</h3>
+                <p>В связи с увеличением числа дорожных происшествий, Министерство внутренних дел рассматривает возможность усложнения экзаменов на получение водительских прав. </p>
+                <span class="read-more" data-modal="modal10">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
         </section>
-        
         <!-- Раздел Общество -->
         <section id="obshchestvo" class="section">
             <h2>Общество</h2>
             <div class="section-item">
-                <h3>Жители Тулы собрали 200 тысяч рублей на помощь больному ребенку</h3>
-                <p>В городе прошла благотворительная акция, организованная местными активистами.</p>
-                <span class="read-more" data-modal="modal15">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>Почта России помогла 260 жителям Тульской области стать донорами костного мозга</h3>
+                <p>В рамках специальной акции Почта России организовала сбор информации о потенциальных донорах, благодаря чему 260 жителей региона получили возможность помочь больным людям. </p>
+                <span class="read-more" data-modal="modal2">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
             <div class="section-item">
-                <h3>Открытие нового детского сада в микрорайоне Заречье</h3>
-                <p>В этом месяце в микрорайоне Заречье открылся новый детский сад на 150 мест.</p>
-                <span class="read-more" data-modal="modal16">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>Папа может все, и даже вместо мамы в декрете быть</h3>
+                <p>Психолог рассказала, как отцу стать главным помощником до и после родов, поделившись ценными советами для современных семей. </p>
+                <span class="read-more" data-modal="modal9">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
             <div class="section-item">
-                <h3>В Туле прошел первый фестиваль волонтеров</h3>
-                <p>Более 500 волонтеров из разных районов города собрались на площади Ленина.</p>
-                <span class="read-more" data-modal="modal17">Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>В Туле стартовала бесплатная Школа походов для молодежи и не только</h3>
+                <p>Руслан Аветисов сообщил о запуске бесплатной Школы походов, которая открыла свои двери для всех желающих научиться основам выживания в природе и организации походов. </p>
+                <span class="read-more" data-modal="modal3">Читать полностью<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
         </section>
-        
         <!-- Раздел Афиша -->
         <section id="afisha" class="section">
             <h2>Афиша</h2>
             <div class="section-item">
-                <h3>Фестиваль тульского пряника</h3>
-                <p>15-17 сентября 2025 года, Центральный парк культуры и отдыха.</p>
-                <span class="read-more" data-modal="modal18">Читать подробнее →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>В Туле стартовала бесплатная Школа походов для молодежи и не только</h3>
+                <p>Руслан Аветисов сообщил о запуске бесплатной Школы походов, которая открыла свои двери для всех желающих научиться основам выживания в природе и организации походов.</p>
+                <span class="read-more" data-modal="modal3">Читать подробнее<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
             <div class="section-item">
-                <h3>Выставка "Тула и ее герои"</h3>
-                <p>10-30 сентября 2025 года, Тульский краеведческий музей.</p>
-                <span class="read-more" data-modal="modal19">Читать подробнее →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>Как подготовить огород к зиме: на песчаных и бедных грунтах полезно добавить органику</h3>
+                <p>Специалисты рекомендуют добавлять навоз или компост на песчаных и бедных грунтах, чтобы удержать влагу и насытить почву питательными веществами перед зимним периодом.</p>
+                <span class="read-more" data-modal="modal5">Читать подробнее<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
             <div class="section-item">
-                <h3>Концерт симфонического оркестра</h3>
-                <p>22 сентября 2025 года, Тульский областной театр оперы и балета.</p>
-                <span class="read-more" data-modal="modal20">Читать подробнее →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
+                <h3>В Тульской области в новом учебном году будет организован транспорт для более 10 тысяч школьников</h3>
+                <p>В региональном правительстве сообщили, что в рамках подготовки к новому учебному году закуплено 72 новых автобуса для перевозки школьников по районам области.</p>
+                <span class="read-more" data-modal="modal4">Читать подробнее<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg></span>
             </div>
         </section>
-        
         <!-- Подписка на рассылку -->
         <section class="newsletter">
             <h2>Подпишитесь на рассылку новостей Тулы</h2>
@@ -1057,7 +902,6 @@
                 <button type="submit">Подписаться</button>
             </form>
         </section>
-        
         <!-- О сайте -->
         <section id="about" class="section">
             <h2>О сайте</h2>
@@ -1066,7 +910,6 @@
             <p>Проект был создан в 2025 году энтузиастом, живущем в Туле.</p>
             <p>Новости Тулы — ваш надежный источник информации о родном городе!</p>
         </section>
-        
         <!-- Контакты -->
         <section id="contacts" class="section">
             <h2>Свяжитесь с нами</h2>
@@ -1095,7 +938,6 @@
                 </div>
             </form>
         </div>
-        
         <div class="contact-info">
             <h3>Контактная информация</h3>
             <div class="info-item">
@@ -1118,7 +960,6 @@
                 </svg>
                 <span>info@novosti-tuly.ru</span>
             </div>
-            
             <h3>Следите за нами</h3>
 <div class="social-icons">
     <a href="#" title="ВКонтакте">
@@ -1131,335 +972,166 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Max_%28app%29_logo.svg" alt="Max" width="24" height="24">
     </a>
 </div>
-
-
-
         </div>
     </div>
 </section>
     </main>
-    
     <!-- Модальные окна расширенных новостей -->
     <!-- Modal 1 -->
     <div id="modal1" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <h2>В Туле открылся новый культурный центр на базе бывшего завода</h2>
-            <p class="date">5 сентября 2025 года</p>
-            <p>На месте старого машиностроительного завода в центре города открылся современный культурный комплекс с театром, выставочными залами и коворкингом. В торжественной церемонии приняли участие мэр города и губернатор Тульской области. Открытие состоялось 5 сентября 2025 года в рамках празднования Дня города.</p>
-            <p>Новый культурный центр занимает площадь более 8 000 квадратных метров и включает в себя большой концертный зал на 500 мест, три выставочных зала, библиотеку с цифровым доступом, коворкинг-пространство и кафе. Архитектурное решение сохранило элементы исторического фасада здания, но полностью обновило внутренние пространства.</p>
-            <p>Генеральный директор центра Анна Петрова отметила: "Это не просто новое здание, а новый центр культурной жизни Тулы. Мы планируем проводить здесь не только классические концерты, но и современные перформансы, лекции молодых ученых и мастер-классы для детей".</p>
-            <p>В течение первого месяца работы центр уже принял более 15 000 посетителей. В планах - организация ежемесячного фестиваля искусств и сотрудничество с университетами Тульской области.</p>
+            <h2>Дмитрий Миляев: В Тульской области формируется желание людей проявлять себя творчески</h2>
+            <p class="date">25 сентября 2025 года</p>
+            <p>Губернатор Тульской области Дмитрий Миляев отметил, что в регионе наблюдается рост интереса к творческим проектам и инициативам среди жителей.</p>
+            <p>В ходе встречи с представителями творческих объединений губернатор подчеркнул важность поддержки местных художников, музыкантов и ремесленников. "Мы видим, как все больше людей в Тульской области проявляют себя в творческой сфере. Это очень важно для развития региона и формирования его уникального облика", — заявил Миляев.</p>
+            <p>Правительство региона планирует создать специальную программу поддержки творческих проектов, которая будет включать гранты для начинающих авторов, организацию выставок и фестивалей, а также создание творческих кластеров в различных городах области.</p>
+            <p>Особое внимание будет уделено молодежи: в рамках программы планируется открытие специализированных школ и курсов для детей и подростков, проявляющих интерес к искусству.</p>
             <a href="#" class="back-link">← Вернуться к списку новостей</a>
         </div>
     </div>
-
     <!-- Modal 2 -->
     <div id="modal2" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <h2>Тульские школьники победили на всероссийской олимпиаде по физике</h2>
-            <p class="date">18 августа 2025 года</p>
-            <p>Ученики школы №17 Тулы заняли первое место в всероссийской олимпиаде по физике среди старшеклассников. Команда подготовилась под руководством учителя-методиста, получив грант от регионального министерства образования. Победа одержана в августе 2025 года.</p>
-            <p>Команда Тульской школы №17, состоящая из трех учеников 11 класса - Александра Иванова, Екатерины Петровой и Дмитрия Сидорова - продемонстрировала лучшие результаты среди всех участников из 85 регионов России. Они решили сложнейшую задачу по квантовой физике, которая была признана экспертами как наиболее оригинальная и глубокая.</p>
-            <p>Руководитель команды, учитель физики Сергей Владимирович Морозов, отметил: "Мы уделяем особое внимание не просто запоминанию формул, а пониманию физических процессов. Наши ученики проводят эксперименты в нашей мини-лаборатории, которую мы создали благодаря фонду развития образования".</p>
-            <p>Победа в олимпиаде дает ученикам право на поступление без вступительных испытаний в ведущие технические вузы России. Все трое школьников планируют поступать в МФТИ и МГУ. Кроме того, команда получила денежный приз в размере 500 000 рублей на развитие научной деятельности школы.</p>
+            <h2>Почта России помогла 260 жителям Тульской области стать донорами костного мозга</h2>
+            <p class="date">9 апреля 2025 года</p>
+            <p>В рамках специальной акции Почта России организовала сбор информации о потенциальных донорах, благодаря чему 260 жителей региона получили возможность помочь больным людям. </p>
+            <p>Акция прошла в марте 2025 года по всей Тульской области. Почтовые отделения стали пунктами приема заявок от желающих пройти тестирование на совместимость с пациентами, нуждающимися в пересадке костного мозга.</p>
+            <p>Специалисты Почты России разработали удобную систему: жители могли оставить заявку через специальные формы в отделениях или через мобильное приложение "Почта России". После этого их данные передавались в региональный центр трансплантологии.</p>
+            <p>"Это отличная возможность помочь людям, которым нужны доноры, — прокомментировала глава регионального отделения Почты России Елена Смирнова. — Мы рады, что смогли объединить усилия с медицинскими учреждениями и помочь спасти жизни".</p>
+            <p>Всего в акции приняли участие более 1500 жителей Тульской области, из которых 260 были признаны потенциальными донорами. В ближайшее время они будут проходить дополнительные обследования для подтверждения совместимости.</p>
             <a href="#" class="back-link">← Вернуться к списку новостей</a>
         </div>
     </div>
-
     <!-- Modal 3 -->
     <div id="modal3" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <h2>В Туле прошла акция "Чистый город"</h2>
-            <p class="date">12 августа 2025 года</p>
-            <p>Более 500 волонтеров приняли участие в экологической акции по уборке парков и набережных. Городская администрация планирует сделать такие мероприятия регулярными. Акция прошла 12 августа 2025 года в рамках месяца экологии.</p>
-            <p>Акция "Чистый город" прошла в воскресенье, 12 августа, в десяти самых популярных местах отдыха туляков: Парке культуры и отдыха имени 50-летия Октября, на набережной реки Упа, в парке "Сосновый бор", в сквере "Славянский" и других локациях. Участники были разделены на 25 команд, каждая из которых получила средства для сбора мусора и карты с указанием зон ответственности.</p>
-            <p>Организаторы акции - администрация города совместно с экологическим движением "Тула - зеленая" - сообщили, что за четыре часа было собрано более 12 тонн мусора, включая 3 тонны пластика, 2 тонны стекла и 1,5 тонны металла. Особое внимание уделили очистке берегов реки Упа, где были найдены старые автомобильные шины, строительные отходы и бытовой мусор.</p>
-            <p>Впервые в акции приняли участие представители школьных экологических клубов из 15 образовательных учреждений Тулы. Также присоединились сотрудники крупных предприятий города, включая Тульский завод "Металлопрокат" и Тульский машиностроительный завод.</p>
-            <p>Мэр Тулы Владимир Смирнов поблагодарил всех участников и объявил, что с сентября 2025 года акция "Чистый город" станет ежемесячным событием, проводимым в первую субботу каждого месяца. "Мы хотим, чтобы жители Тулы чувствовали себя хозяевами своего города и гордились его чистотой", - сказал он.</p>
+            <h2>В Туле стартовала бесплатная Школа походов для молодежи и не только</h2>
+            <p class="date">15 сентября 2025 года</p>
+            <p>Руслан Аветисов сообщил о запуске бесплатной Школы походов, которая открыла свои двери для всех желающих научиться основам выживания в природе и организации походов.</p>
+            <p>Школа походов открылась в Туле 15 сентября 2025 года по инициативе местного общественного деятеля Руслана Аветисова. Первое занятие собрало более 50 участников всех возрастов — от подростков до пенсионеров.</p>
+            <p>Программа школы включает обучение основам выживания в природе, ориентированию на местности, приготовлению пищи в полевых условиях, оказанию первой помощи и многому другому. Занятия проводят опытные инструкторы с многолетним опытом организации походов.</p>
+            <p>"Мы хотим, чтобы как можно больше людей смогли освоить навыки, которые пригодятся не только в походах, но и в повседневной жизни, — объяснил Аветисов. — Умение выжить в экстремальных условиях — важный навык для каждого человека".</p>
+            <p>Школа работает еженедельно по субботам, а также проводит однодневные практикумы в выходные. Все занятия бесплатны, для участия необходимо зарегистрироваться на сайте школы.</p>
             <a href="#" class="back-link">← Вернуться к списку новостей</a>
         </div>
     </div>
-
     <!-- Modal 4 -->
     <div id="modal4" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <h2>Открыт новый пешеходный мост через реку Упа</h2>
-            <p class="date">20 августа 2025 года</p>
-            <p>Современный пешеходный мост соединил два района города, значительно сократив время пути для жителей. Мост оснащен системой освещения и видеонаблюдения. Открытие состоялось 20 августа 2025 года.</p>
-            <p>Новый пешеходный мост "Упинский" длиной 185 метров соединяет микрорайон Заречье с центральной частью Тулы, где расположены административные здания, главный железнодорожный вокзал и крупные торговые центры. До открытия моста жителям Заречья приходилось добираться до центра либо через существующий автодорожный мост, либо на общественном транспорте, что занимало от 20 до 40 минут.</p>
-            <p>Проект реализован по государственной программе "Безопасные и удобные пешеходные переходы" с бюджетом 320 миллионов рублей. Конструкция выполнена из высокопрочной стали с антикоррозийным покрытием и имеет ширину 6 метров, что позволяет свободно передвигаться даже при большом потоке людей. Мост оборудован пандусами для маломобильных групп населения и тактильными полосами для слабовидящих.</p>
-            <p>Особенностью конструкции является система LED-подсветки, которая меняет цвет в зависимости от времени суток: холодный белый свет днем, теплый золотистый - вечером. Также установлены камеры видеонаблюдения, которые передают изображение в службу безопасности города, обеспечивая безопасность пешеходов в любое время суток.</p>
-            <p>Открытие моста сопровождалось праздничной церемонией, на которой присутствовали сотни жителей двух районов. Первым на мост прошел ветеран Великой Отечественной войны 94-летний Петр Иванович Козлов, которому вручена памятная медаль "За вклад в развитие Тулы".</p>
-            <p>По данным департамента транспорта, ежедневно мост будет использовать около 8 000 человек, что позволит снизить нагрузку на автодорожный мост на 25% и уменьшить пробки в час пик.</p>
+            <h2>В Тульской области в новом учебном году будет организован транспорт для более 10 тысяч школьников</h2>
+            <p class="date">14 августа 2025 года</p>
+            <p>В региональном правительстве сообщили, что в рамках подготовки к новому учебному году закуплено 72 новых автобуса для перевозки школьников по районам области. </p>
+            <p>В Тульской области в новом учебном году будет организован транспорт для более 10 тысяч школьников. В рамках программы обновления школьного автотранспорта закуплено 72 новых автобуса, которые будут использоваться для перевозки детей из отдаленных районов в образовательные учреждения.</p>
+            <p>Новые автобусы оснащены системами GPS-навигации, камерами наблюдения и специальными креплениями для детских автокресел. Все транспортные средства соответствуют современным требованиям безопасности и экологическим стандартам.</p>
+            <p>"Мы стремимся обеспечить безопасность и комфорт школьников при поездках в школу, — отметил министр образования Тульской области. — Новые автобусы помогут сократить время в пути и обеспечить надежную доставку детей в образовательные учреждения".</p>
+            <p>Всего в регионе работает 120 школьных маршрутов, из которых 85 будут обслуживаться новыми автобусами. Остальные маршруты будут обслуживаться обновленным парком старых автобусов, прошедших капитальный ремонт.</p>
             <a href="#" class="back-link">← Вернуться к списку новостей</a>
         </div>
     </div>
-
     <!-- Modal 5 -->
     <div id="modal5" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <h2>В Туле запущена электробусная линия</h2>
-            <p class="date">1 сентября 2025 года</p>
-            <p>Первая электробусная линия соединила железнодорожный вокзал с центром города. Это часть программы по снижению выбросов в атмосферу и развитию экологического транспорта. Линия начала работу 1 сентября 2025 года.</p>
-            <p>Новая маршрутная линия №10 "Электробус" связывает железнодорожный вокзал Тулы с центральной площадью Ленина, проходя через главные деловые и туристические районы города. В составе маршрута - три новых электробуса BYD K9S, которые имеют автономный пробег до 300 км на одном заряде и могут перевозить до 90 пассажиров.</p>
-            <p>Все электробусы оснащены системой быстрой зарядки, позволяющей полностью зарядить аккумулятор за 20 минут на специальных зарядных станциях, установленных на конечных остановках. Энергию для зарядки обеспечивают солнечные панели, установленные на крыше автобусного парка.</p>
-            <p>Маршрут обслуживается 24 часа в сутки с интервалом движения 10 минут в дневное время и 15 минут ночью. Билеты можно оплатить бесконтактно через мобильное приложение "Тула-транспорт" или банковскую карту. Для пенсионеров и студентов предусмотрены льготные тарифы.</p>
-            <p>По оценкам городской администрации, внедрение электробусов позволит сократить выбросы CO₂ на 420 тонн в год, а также снизить уровень шума в центре города. Планируется, что к 2027 году 60% городского общественного транспорта будет электрифицировано.</p>
-            <p>На церемонии запуска мэр Тулы заявил, что этот проект стал возможен благодаря партнерству с компанией BYD и финансовой поддержке федерального фонда "Зеленая Россия". Первые отзывы пассажиров положительные: "Тихо, комфортно, быстро - это именно то, чего нам не хватало", - говорит студентка Тульского государственного университета Анастасия Морозова.</p>
+            <h2>Как подготовить огород к зиме: на песчаных и бедных грунтах полезно добавить органику</h2>
+            <p class="date">6 сентября 2025 года</p>
+            <p>Специалисты рекомендуют добавлять навоз или компост на песчаных и бедных грунтах, чтобы удержать влагу и насытить почву питательными веществами перед зимним периодом. </p>
+            <p>С приближением холодов садоводы и огородники задумываются о подготовке земли к зиме. Специалисты рекомендуют вносить органические удобрения — навоз или компост — особенно на песчаных и бедных грунтах. Это поможет удержать влагу и насытить почву питательными веществами, которые необходимы для будущего урожая.</p>
+            <p>"Органические удобрения — это не только источник питательных веществ, но и улучшитель структуры почвы. На песчаных грунтах они помогают удерживать влагу, а на тяжелых глинистых — делают почву более рыхлой", — объяснил агроном Сергей Петров.</p>
+            <p>Кроме того, специалисты советуют очистить грядки от сорняков и остатков растений, провести глубокую перекопку и замульчировать поверхность земли соломой или опилками для защиты от морозов.</p>
+            <p>Для тех, у кого нет собственного компоста, рекомендуется приобрести готовый компост в специализированных магазинах. Также можно использовать перегной или торф для улучшения структуры почвы.</p>
             <a href="#" class="back-link">← Вернуться к списку новостей</a>
         </div>
     </div>
-
     <!-- Modal 6 -->
     <div id="modal6" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <h2>Тульский завод "Металлопрокат" получил премию за качество</h2>
-            <p class="date">15 сентября 2025 года</p>
-            <p>Предприятие стало лауреатом национальной премии "Российское качество" за высокие стандарты производства и внедрение инновационных технологий. Премия вручена 15 сентября 2025 года.</p>
-            <p>Тульский завод "Металлопрокат" стал одним из немногих предприятий в России, получивших престижную национальную премию "Российское качество" в номинации "Лучшее производство в металлургии". Премия была вручена на церемонии в Москве в рамках Всероссийского форума качества, где завод представил свою систему управления качеством "TulaQuality", разработанную совместно с Тульским государственным университетом.</p>
-            <p>Основными критериями оценки стали: внедрение системы автоматизированного контроля качества на всех этапах производства, использование искусственного интеллекта для прогнозирования параметров термообработки, применение экологически чистых технологий и снижение отходов на 37% за последние три года.</p>
-            <p>Генеральный директор завода Александр Сергеевич Волков рассказал, что внедрение новых технологий позволило повысить точность производства продукции на 92%, снизить количество брака с 1,8% до 0,3% и увеличить объем экспорта на 45%. Продукция завода теперь поставляется на предприятия Автомобильной корпорации "АвтоВАЗ", "Ростех" и в страны Европейского Союза.</p>
-            <p>Особое внимание жюри уделило социальным инициативам завода: созданию центра профессиональной переподготовки для работников, обучению молодежи на базе завода и внедрению программы "Чистый цех", которая включает бесплатное медицинское обследование сотрудников и улучшение условий труда.</p>
-            <p>Премия "Российское качество" вручается с 2015 года Министерством промышленности и торговли РФ. В этом году премию получили всего 17 предприятий из 35 регионов России. Завод "Металлопрокат" стал первым предприятием Тульской области, удостоенным этой награды.</p>
+            <h2>В запертой квартире в Заречье от голода умерли собаки</h2>
+            <p class="date">20 сентября 2025 года</p>
+            <p>В закрытой квартире дома №9 по ул. Галкина в Туле почти три недели были заперты две немецкие овчарки, предположительно, со щенками. </p>
+            <p>В закрытой квартире дома №9 по ул. Галкина в Туле почти три недели были заперты две немецкие овчарки, предположительно, со щенками. По данным местных жителей, животные не получали пищу и воду на протяжении длительного времени.</p>
+            <p>Соседи сообщили, что не видели хозяев квартиры уже несколько недель, а через окна видели, как собаки пытались добраться до воды, но безуспешно. "Мы слышали, как они лают, но не знали, что это так серьезно", — рассказала одна из жительниц дома.</p>
+            <p>Сотрудники полиции и ветеринарной службы были вызваны на место, но обнаружили уже мертвых животных. По предварительным данным, собаки погибли от голода и жажды. Ветеринары подтверждают, что смерть наступила примерно три недели назад.</p>
+            <p>Сейчас проводится проверка по факту жестокого обращения с животными. Собственник квартиры пока не установлен, но ведется розыск.</p>
             <a href="#" class="back-link">← Вернуться к списку новостей</a>
         </div>
     </div>
-
     <!-- Modal 7 -->
     <div id="modal7" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <h2>В Туле состоится международный фестиваль тульского пряника</h2>
-            <p class="date">15-17 сентября 2025 года</p>
-            <p>С 15 по 17 сентября 2025 года в городе пройдет фестиваль, объединяющий производителей пряника из разных регионов России и зарубежья. Ожидается более 10 тыс. посетителей. Фестиваль стал ежегодным событием.</p>
-            <p>Международный фестиваль тульского пряника пройдет в Центральном парке культуры и отдыха имени 50-летия Октября с 15 по 17 сентября 2025 года. В этом году в мероприятии примут участие более 80 производителей пряника из 15 регионов России, а также гости из Беларуси, Казахстана, Германии и Франции.</p>
-            <p>Главная особенность фестиваля этого года - конкурс "Самый большой пряник в мире". Участники будут соревноваться в создании пряника весом более 100 кг. Победителю вручают золотую медаль и сертификат на сумму 500 000 рублей. В прошлом году победил мастер из Тулы, создавший пряник весом 128 кг в форме герба города.</p>
-            <p>Программа фестиваля включает мастер-классы по лепке и печати пряника, дегустации с экспертами, выставку исторических рецептов, концерты народной музыки и ярмарку ремесленников. Особое внимание уделяется детской программе: дети смогут принять участие в конкурсе рисунков на прянике и создать свой собственный пряник под руководством опытных пекарей.</p>
-            <p>Организаторы фестиваля - Тульская торгово-промышленная палата совместно с Министерством культуры Тульской области. По данным организаторов, в прошлом году фестиваль посетили более 8 500 человек, а в этом году ожидают рекордное количество посетителей - более 12 000 человек.</p>
-            <p>Помимо традиционных пряников, будут представлены экзотические варианты: пряник с добавлением черного шоколада, пряник с имбирным элем, пряник с вишневым джемом и даже пряник с копченой рыбой. Для гостей будет работать специальная зона "Пряничный двор" с анимационными персонажами и фотозонами.</p>
+            <h2>Соседи: Трупы погибших собак из запертой квартиры не вывезли</h2>
+            <p class="date">22 сентября 2025 года</p>
+            <p>Жильцы дома сообщили, что трупы животных так и не вывезли из квартиры, несмотря на то, что она закрыта, а отопление работает, что приводит к разложению останков. </p>
+            <p>Соседи дома №9 по ул. Галкина в Туле сообщили, что трупы погибших собак до сих пор находятся в квартире, несмотря на то, что прошло уже более двух недель с момента их обнаружения. Отопление в квартире работает, что ускоряет процесс разложения останков.</p>
+            <p>"Мы уже несколько раз обращались в управляющую компанию и в полицию, но никто не реагирует, — возмущается одна из жительниц дома. — В коридоре уже появился неприятный запах, а в квартире до сих пор лежат трупы животных".</p>
+            <p>По словам жильцов, управляющая компания заявляет, что не имеет права врываться в квартиру без решения суда, а полиция ссылается на отсутствие информации о собственнике. "Мы не знаем, что делать дальше, — говорит местный житель. — Нужно срочно что-то предпринять, иначе запах распространится по всему подъезду".</p>
+            <p>В настоящее время жильцы дома готовят коллективное обращение в прокуратуру и органы местного самоуправления с требованием срочно вывезти трупы животных.</p>
             <a href="#" class="back-link">← Вернуться к списку новостей</a>
         </div>
     </div>
-
     <!-- Modal 8 -->
     <div id="modal8" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <h2>Президент подписал закон о повышении пенсий с 1 января 2026 года</h2>
-            <p class="date">25 августа 2025 года</p>
-            <p>С 1 января 2026 года пенсионеры получат индексацию на 8,5%. Правительство также объявило о дополнительных выплатах для ветеранов. Закон был подписан в конце августа 2025 года.</p>
-            <p>Президент Российской Федерации подписал Федеральный закон № 245-ФЗ "О внесении изменений в Федеральный закон "О страховых пенсиях" и отдельные законодательные акты Российской Федерации", который предусматривает индексацию страховых пенсий на 8,5% с 1 января 2026 года. Это один из самых значительных показателей индексации за последние 10 лет.</p>
-            <p>Согласно документу, средняя величина страховой пенсии по старости в России после индексации составит 22 850 рублей, что на 1 740 рублей больше, чем в 2025 году. Повышение затронет более 40 миллионов пенсионеров по всей стране. Особое внимание уделяется индексации для лиц, проживающих в сельской местности, которым дополнительно выплачивается 25% надбавка к пенсии.</p>
-            <p>Кроме того, закон предусматривает единовременные выплаты в размере 10 000 рублей всем ветеранам Великой Отечественной войны, участникам боевых действий и труженикам тыла. Эти выплаты будут осуществлены в декабре 2025 года. Также предусмотрено повышение социальных доплат для малоимущих пенсионеров и расширение списка льгот для пенсионеров старше 80 лет.</p>
-            <p>Финансирование этих мер будет осуществляться за счет резервного фонда правительства и средств федерального бюджета. Министр труда и социальной защиты сообщил, что дополнительные расходы на пенсионное обеспечение в 2026 году составят 1,2 триллиона рублей.</p>
-            <p>Представители Пенсионного фонда России заявили, что все изменения будут автоматически применены к выплатам, никаких заявлений от пенсионеров не требуется. Информация о новых размерах пенсий будет доступна в личных кабинетах на портале госуслуг и в приложении ПФР.</p>
+            <h2>Главные федеральные новости, события, происшествия, репортажи</h2>
+            <p class="date">26 сентября 2025 года</p>
+            <p>В России продолжаются важные события, которые затрагивают все регионы страны, включая Тульскую область. </p>
+            <p>В рамках федеральной повестки сегодня обсуждаются вопросы экономического развития, социальной поддержки населения и безопасности. Важные решения принимаются на уровне правительства, которые влияют на жизнь всех граждан страны.</p>
+            <p>Особое внимание уделяется программам поддержки малого и среднего бизнеса, а также вопросам экологии и сохранения природных ресурсов. В ряде регионов страны запущены новые проекты по модернизации инфраструктуры и развитию цифровых технологий.</p>
+            <p>В Тульской области в связи с федеральными программами планируется увеличение финансирования на развитие сельского хозяйства и поддержку сельских жителей. Также в регионе реализуется проект по строительству новых объектов социальной инфраструктуры.</p>
+            <p>Важные решения, принимаемые на федеральном уровне, оказывают значительное влияние на жизнь жителей Тульской области, и местные власти активно участвуют в их реализации.</p>
             <a href="#" class="back-link">← Вернуться к списку новостей</a>
         </div>
     </div>
-
     <!-- Modal 9 -->
     <div id="modal9" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <h2>В Москве открылась крупнейшая в стране станция метро</h2>
-            <p class="date">10 сентября 2025 года</p>
-            <p>Новая станция "Восточный экспресс" стала самой протяженной в России. Она соединяет несколько районов столицы и рассчитана на 100 тыс. пассажиров в день. Открытие состоялось 10 сентября 2025 года.</p>
-            <p>В Москве открылась самая протяженная в России станция метро "Восточный экспресс", которая стала частью новой линии "Восточно-Юго-Восточная". Станция представляет собой уникальный инженерный объект длиной 1,2 километра, расположенный на глубине 45 метров. Она состоит из трех уровней: платформенный уровень, пассажирский холл и зона выходов на поверхность.</p>
-            <p>Станция спроектирована для пропускной способности 100 тысяч пассажиров в день и оснащена современной системой вентиляции, освещения и безопасности. Внутреннее оформление выполнено в стиле "космический экспресс": стены украшены световыми панелями, имитирующими звездное небо, а потолок выполнен в виде волнистой поверхности, напоминающей траекторию космического корабля.</p>
-            <p>На станции установлены 18 эскалаторов, 6 лифтов для маломобильных групп населения и 12 автоматических турникетов. Пассажиры могут воспользоваться бесплатным Wi-Fi, зарядными станциями для устройств, информационными экранами с расписанием поездов и интерактивными картами Москвы.</p>
-            <p>Станция "Восточный экспресс" соединяет пять крупных районов Москвы: Восточное Измайлово, Новогиреево, Восточный, Перово и Новокосино. Она также является пересадочной на линии 11 (Большая кольцевая линия) и 13 (Таганско-Краснопресненская линия).</p>
-            <p>Открытие станции стало самым масштабным проектом Московского метрополитена за последние 15 лет. Строительство заняло 5 лет и обошлось в 85 миллиардов рублей. По словам генерального директора Московского метрополитена, "Восточный экспресс" стал символом модернизации транспортной инфраструктуры столицы и примером для других городов России.</p>
+            <h2>Папа может все, и даже вместо мамы в декрете быть</h2>
+            <p class="date">19 сентября 2025 года</p>
+            <p>Психолог рассказала, как отцу стать главным помощником до и после родов, поделившись ценными советами для современных семей. </p>
+            <p>Современные отцы все чаще берут на себя ответственность за заботу о ребенке и участие в воспитании. Психологи отмечают, что активное участие отца в жизни ребенка с самого начала способствует его гармоничному развитию и укрепляет семейные отношения.</p>
+            <p>"Многие отцы боятся, что не смогут справиться с ролью в декрете, но это не так, — говорит психолог Екатерина Васильева. — Главное — быть готовым к изменениям, учиться и не бояться просить помощи".</p>
+            <p>Специалист рекомендует отцам активно участвовать в подготовке к родам, посещать вместе с матерью занятия по подготовке к родам, помогать в уходе за новорожденным и не бояться проявлять эмоции. "Отцы должны понимать, что их роль не менее важна, чем роль матерей", — подчеркнула психолог.</p>
+            <p>По данным исследования, семьи, где отцы активно участвуют в воспитании детей, демонстрируют более высокую удовлетворенность жизнью и меньший уровень стресса. Психологи рекомендуют всем отцам не стесняться проявлять свою заботу и любовь к ребенку с самого рождения.</p>
             <a href="#" class="back-link">← Вернуться к списку новостей</a>
         </div>
     </div>
-
     <!-- Modal 10 -->
     <div id="modal10" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <h2>Россия ввела новые ограничения на экспорт стратегических товаров</h2>
-            <p class="date">5 сентября 2025 года</p>
-            <p>Правительство расширило список товаров, экспорт которых требует специального разрешения, включая компоненты для высокотехнологичного оборудования. Новые правила вступили в силу 5 сентября 2025 года.</p>
-            <p>Правительство Российской Федерации ввело новые ограничения на экспорт стратегических товаров, расширив список контролируемых продуктов до 1 200 наименований. Новые правила вступили в силу 5 сентября 2025 года и затрагивают экспорт компонентов для высокотехнологичного оборудования, включая чипы, микроэлектронику, системы управления, оборудование для квантовых вычислений и компоненты для беспилотных летательных аппаратов.</p>
-            <p>Согласно постановлению Правительства РФ № 1123, экспорт любой продукции из нового списка требует получения специального разрешения от Минпромторга России. В частности, в список попали: чипы с размером транзисторов менее 14 нм, системы управления промышленными роботами, технологии для производства литий-ионных аккумуляторов третьего поколения, компоненты для радиолокационных систем и оборудование для производства сверхпроводников.</p>
-            <p>Решение принято в рамках усиления экономической безопасности и защиты национальных технологий. Минпромторг подчеркивает, что новые меры направлены не на ограничение внешнеторговой деятельности, а на обеспечение технологического суверенитета России. При этом экспортеры, работающие с партнерами из стран, входящих в ЕАЭС, остаются в упрощенном режиме.</p>
-            <p>Для бизнеса предусмотрен переходный период до 1 марта 2026 года, в течение которого компании могут оформить необходимые лицензии и адаптировать документооборот. За нарушение правил предусмотрены штрафы до 5% от стоимости экспортируемой продукции и приостановка экспортных операций.</p>
-            <p>Эксперты отмечают, что это решение может повлиять на международные цепочки поставок, особенно для компаний, производящих оборудование для энергетики, авиации и оборонной промышленности. Однако многие российские производители уже начали замещать импортные компоненты отечественными аналогами, что подтверждает эффективность политики импортозамещения.</p>
+            <h2>Экзамены на водительское удостоверение усложняют, а ДТП</h2>
+            <p class="date">25 сентября 2025 года</p>
+            <p>В связи с увеличением числа дорожных происшествий, Министерство внутренних дел рассматривает возможность усложнения экзаменов на получение водительских прав. </p>
+            <p>Министерство внутренних дел России рассматривает возможность усложнения экзаменов на получение водительских прав в связи с ростом числа дорожно-транспортных происшествий. По данным статистики, за последние три месяца количество аварий увеличилось на 12% по сравнению с аналогичным периодом прошлого года.</p>
+            <p>"Мы видим, что многие водители не обладают достаточными навыками для безопасного вождения, — заявил представитель МВД. — Поэтому мы рассматриваем возможность введения дополнительных испытаний, которые помогут отсеять неопытных водителей".</p>
+            <p>Среди предложений — увеличение количества практических занятий перед экзаменом, введение дополнительных теоретических тестов на знание правил дорожного движения, а также обязательное прохождение курсов по экстремальному вождению.</p>
+            <p>Однако эксперты отмечают, что усложнение экзаменов не всегда приводит к снижению аварийности. "Важнее всего — качество обучения, а не количество экзаменов", — считает эксперт по безопасности дорожного движения Дмитрий Соколов.</p>
+            <p>В настоящее время Министерство внутренних дел проводит консультации с автошколами и экспертами по вопросам изменения правил сдачи экзаменов на водительские права.</p>
             <a href="#" class="back-link">← Вернуться к списку новостей</a>
         </div>
     </div>
-
     <!-- Modal 11 -->
     <div id="modal11" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <h2>Запущен новый проект по сохранению исторического наследия</h2>
-            <p class="date">1 сентября 2025 года</p>
-            <p>Федеральный фонд культуры начал масштабную программу реставрации памятников архитектуры в 15 регионах страны, включая Тульскую область. Проект стартовал в августе 2025 года с бюджетом 15 млрд рублей.</p>
-            <p>Федеральный фонд культуры запустил грандиозный проект "Наследие века" - масштабную программу реставрации исторических памятников архитектуры в 15 регионах России, включая Тульскую область. Проект стартовал 1 сентября 2025 года и рассчитан на пять лет с общим бюджетом 15 миллиардов рублей.</p>
-            <p>В Тульской области в рамках проекта будут отреставрированы 12 объектов культурного наследия: усадьба "Карамзино", Тульский кремль, церковь Спаса Нерукотворного в Богородицке, здание бывшей тульской типографии XIX века, а также несколько памятников промышленного наследия, включая корпуса старого машиностроительного завода, на базе которого недавно открылся культурный центр.</p>
-            <p>Работы будут вестись по принципу "минимального вмешательства": используются только натуральные материалы, соответствующие историческому ансамблю. Особое внимание уделяется восстановлению интерьеров, декоративной лепнины, деревянных конструкций и витражей. Для каждого объекта создается отдельная комиссия из архитекторов, историков и реставраторов.</p>
-            <p>Проект предусматривает не только реставрацию, но и создание мультимедийных экскурсий, цифровых архивов и мобильных приложений с AR-технологиями. После завершения работ все объекты будут включены в туристический маршрут "Золотое кольцо Тулы" и получат статус "Место культурного значения" с возможностью проведения официальных мероприятий.</p>
-            <p>Финансирование проекта осуществляется за счет федерального бюджета, частных инвестиций и средств фонда "Роскультура". Впервые в истории реставрационных проектов в России применяется система блокчейн-мониторинга: все этапы работ фиксируются в цифровом реестре, что гарантирует прозрачность использования средств.</p>
-            <p>По оценкам экспертов, проект "Наследие века" позволит сохранить более 200 уникальных объектов культурного наследия, привлечь 3 миллиона туристов в регионы и создать более 5 000 рабочих мест для специалистов в сфере реставрации и туризма.</p>
+            <h2>Коды от «Госуслуг» теперь будут приходить с задержкой</h2>
+            <p class="date">23 сентября 2025 года</p>
+            <p>На портале «Госуслуги» введено новшество для противодействия интернет-мошенникам, из-за чего коды подтверждения теперь приходят с небольшой задержкой.</p>
+            <p>На портале «Госуслуги» введено новое правило, согласно которому коды подтверждения теперь приходят с небольшой задержкой. Это нововведение направлено на защиту пользователей от мошенников, которые пытаются получить доступ к личным данным граждан.</p>
+            <p>"Мы постоянно совершенствуем систему безопасности, чтобы защитить пользователей от мошеннических действий, — заявил представитель портала. — Задержка в отправке кодов подтверждения делает невозможным быстрое использование кодов мошенниками".</p>
+            <p>Согласно новому правилу, коды подтверждения теперь приходят не сразу, а через 1-2 минуты после запроса. Это позволяет системе проверять запрос на подозрительность и блокировать попытки несанкционированного доступа.</p>
+            <p>Несмотря на небольшие неудобства для пользователей, эксперты одобряют нововведение. "Это важный шаг в защите персональных данных граждан, — считает эксперт по кибербезопасности Анна Смирнова. — Лучше немного подождать, чем потерять доступ к личному кабинету или стать жертвой мошенников".</p>
+            <p>В настоящее время портал «Госуслуги» продолжает работать в штатном режиме, и пользователи могут спокойно пользоваться всеми услугами, несмотря на небольшую задержку в отправке кодов подтверждения.</p>
             <a href="#" class="back-link">← Вернуться к списку новостей</a>
         </div>
     </div>
-
-    <!-- Modal 12 -->
-    <div id="modal12" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <h2>ДТП на трассе Тула-Москва: три человека ранены</h2>
-            <p class="date">28 августа 2025 года</p>
-            <p>Вчера вечером произошло серьезное ДТП на трассе Тула-Москва в районе села Новоселово. Автомобиль Audi столкнулся с грузовиком. Трое пассажиров получили травмы различной степени тяжести, их доставили в больницу. Инцидент произошел 28 августа 2025 года.</p>
-            <p>Вечером 28 августа 2025 года на трассе Тула-Москва в районе села Новоселово произошло серьезное дорожно-транспортное происшествие. Легковой автомобиль Audi A6, двигавшийся в сторону Москвы, столкнулся с грузовым автомобилем MAN с прицепом, следовавшим в сторону Тулы. Причиной аварии стало нарушение правил обгона водителем легкового автомобиля, который выехал на полосу встречного движения.</p>
-            <p>В результате столкновения пассажиры автомобиля Audi получили травмы различной степени тяжести: водитель - множественные переломы ребер и сотрясение мозга, пассажир на переднем сиденье - перелом ноги, пассажир на заднем сиденье - ушибы и ссадины. Все трое были доставлены в Тульскую областную клиническую больницу, где им оказывается необходимая медицинская помощь. Состояние пациентов стабильное, никто не находится в тяжелом состоянии.</p>
-            <p>Водитель грузовика, 52-летний мужчина, не пострадал. По его словам, он не успел среагировать на внезапный маневр, так как видел только фары автомобиля, который выехал на его полосу. На месте происшествия работали сотрудники ГИБДД, скорая помощь и пожарные. На дороге был временно введен ограничительный режим движения.</p>
-            <p>На месте аварии обнаружены следы торможения длиной 45 метров, что подтверждает высокую скорость движения легкового автомобиля - более 110 км/ч на участке, где максимальная скорость составляет 90 км/ч. Водитель автомобиля является гражданином России, 37 лет, проживает в Туле. Он работает в компании, занимающейся поставками оборудования для промышленности.</p>
-            <p>ГИБДД проводит проверку по факту нарушения ПДД. Предварительно водитель может быть привлечен к уголовной ответственности по статье 264 УК РФ ("Нарушение правил дорожного движения, повлекшее по неосторожности причинение тяжкого вреда здоровью человека").</p>
-            <p>В связи с этим инцидентом, власти Тульской области объявили о планах установки дополнительных камер видеофиксации на участках трассы Тула-Москва и увеличения числа патрулей в вечернее время.</p>
-            <a href="#" class="back-link">← Вернуться к списку новостей</a>
-        </div>
-    </div>
-
-    <!-- Modal 13 -->
-    <div id="modal13" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <h2>Пожар в жилом доме на улице Ленина</h2>
-            <p class="date">15 сентября 2025 года</p>
-            <p>В ночь на 15 сентября 2025 года произошел пожар в пятиэтажном жилом доме на улице Ленина. Пожарные потушили возгорание в течение 40 минут. Пострадавших нет, но ущерб оценивается в более чем 5 млн рублей. Причина пожара - короткое замыкание в проводке.</p>
-            <p>В ночь на 15 сентября 2025 года в 23:17 в пятиэтажном жилом доме по адресу: улица Ленина, д. 45, корп. 2, Тула, произошел пожар в подъезде №3 на втором этаже. Возгорание возникло в результате короткого замыкания в старой электропроводке квартиры №17, которая не проходила модернизацию с 1995 года.</p>
-            <p>Пожарные подразделения прибыли на место в течение 7 минут. Были задействованы три пожарных автомобиля и 12 человек личного состава. Огонь распространился по коридору и затронул три квартиры, однако благодаря оперативным действиям пожарных удалось предотвратить распространение огня на остальные этажи. Полное тушение заняло 40 минут.</p>
-            <p>К счастью, все жильцы дома были эвакуированы без потерь. В квартире, где возник пожар, находился один человек - 68-летний пенсионер, который был вынесен соседями на лестничную клетку. Он получил незначительные ожоги рук и был госпитализирован для наблюдения, но его состояние удовлетворительное.</p>
-            <p>Ущерб оценивается в 5,7 млн рублей: повреждены стены, потолки, напольные покрытия и инженерные коммуникации в трех квартирах. Также пострадала кровля здания, что потребует дополнительных ремонтных работ. Жильцы временно размещены в гостинице, предоставленной администрацией города.</p>
-            <p>Расследование проводит Следственный комитет. Предварительно установлено, что электропроводка в доме не проходила проверку с 2010 года, хотя согласно нормам должна обновляться каждые 5 лет. В доме не установлены пожарные извещатели, что также нарушило требования пожарной безопасности.</p>
-            <p>Администрация города заявила, что в рамках программы "Безопасный дом" все многоквартирные дома в Туле, построенные до 2000 года, будут проверены на соответствие нормам пожарной безопасности в течение ближайших 6 месяцев. Владелец дома обязан будет отремонтировать проводку за свой счет.</p>
-            <a href="#" class="back-link">← Вернуться к списку новостей</a>
-        </div>
-    </div>
-
-    <!-- Modal 14 -->
-    <div id="modal14" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <h2>Кражи в магазинах центра города</h2>
-            <p class="date">20-27 сентября 2025 года</p>
-            <p>За последнюю неделю в центре Тулы было зарегистрировано 7 случаев краж из магазинов. Полиция усиливает патрулирование и призывает владельцев установить камеры наблюдения. Все инциденты произошли в период с 20 по 27 сентября 2025 года.</p>
-            <p>За период с 20 по 27 сентября 2025 года в центре Тулы было зафиксировано семь случаев краж из магазинов, преимущественно в торговых центрах "Северный" и "Галерея", а также в магазинах одежды и электроники на улице Ленина и проспекте Ленина. Все преступления совершались в одно и то же время - с 17:00 до 20:00, когда магазины наиболее загружены.</p>
-            <p>Преступники действовали по одной схеме: двое мужчин в возрасте 25-35 лет, одетых в темную одежду, создавали шумную ситуацию, привлекая внимание персонала, в то время как третий участник, женщина, незаметно забирала товары. Чаще всего похищались брендовая одежда, смартфоны, косметика и продукты питания высокой ценности.</p>
-            <p>Полиция Тулы получила видеозаписи с камер наблюдения нескольких магазинов, на которых четко видны лица злоумышленников. По данным следствия, преступная группа действует в Туле уже второй месяц и ранее совершала аналогичные кражи в Воронеже и Орле. Суммарный ущерб от семи инцидентов составил более 850 тысяч рублей.</p>
-            <p>В связи с этим, полиция усилила патрулирование в центре города, а также обратилась к владельцам магазинов с просьбой установить современные камеры с функцией распознавания лиц и системы тревожных кнопок. Местные предприниматели уже начали внедрять эти меры, некоторые магазины закупили системы искусственного интеллекта для анализа поведения клиентов.</p>
-            <p>Гражданам предлагается сообщать о подозрительном поведении по телефону доверия 02 или через мобильное приложение "Полиция Тулы". В случае выявления подозреваемых не следует самостоятельно преследовать их, а необходимо незамедлительно сообщить в полицию.</p>
-            <p>Оперативно-профилактическая группа уже разрабатывает план по задержанию группы. Следственные органы рассматривают возможность объявления розыска по всем трем участникам преступной группы.</p>
-            <a href="#" class="back-link">← Вернуться к списку новостей</a>
-        </div>
-    </div>
-
-    <!-- Modal 15 -->
-    <div id="modal15" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <h2>Жители Тулы собрали 200 тысяч рублей на помощь больному ребенку</h2>
-            <p class="date">10 августа 2025 года</p>
-            <p>В городе прошла благотворительная акция, организованная местными активистами. Было собрано более 200 тысяч рублей на лечение ребенка с редким заболеванием. Средства переданы родителям. Акция прошла 10 августа 2025 года.</p>
-            <p>10 августа 2025 года в Туле прошла масштабная благотворительная акция "Сердце за жизнь", организованная группой волонтеров и местными предпринимателями для помощи 6-летнему Артему Козлову, страдающему редким генетическим заболеванием - синдромом Рудольфа. Для лечения ребенка требуется операция в Москве, стоимость которой составляет 1,2 миллиона рублей.</p>
-            <p>Инициаторами акции стали родители Артема, которые обратились к местному сообществу после отказа в финансировании из-за редкости заболевания. Через социальные сети была запущена онлайн-кампания, а в парке культуры и отдыха установили пункт сбора средств. В течение одного дня было собрано 207 500 рублей в виде наличных и безналичных переводов.</p>
-            <p>Сбором средств занимались более 80 волонтеров, включая студентов Тульского государственного университета, школьников и пенсионеров. Многие жители города принесли вещи для благотворительного аукциона, который прошел в тот же день. На аукционе были проданы картины местных художников, изделия ручной работы, книги и предметы антиквариата.</p>
-            <p>Средства были переданы на специальный счет клиники "Семейная медицина" в Москве, где будет проведена операция. Врачи подтвердили, что вмешательство успешно, если будет проведено до конца октября 2025 года. Родители Артема выразили благодарность всем жителям Тулы: "Мы никогда не думали, что сможем собрать так много. Вы дали нашему сыну шанс на жизнь".</p>
-            <p>Мэр Тулы Владимир Смирнов лично поблагодарил волонтеров и объявил, что город создаст постоянный фонд поддержки детей с редкими заболеваниями, финансируемый за счет части налоговых поступлений от местного бизнеса. "Тула - город с большим сердцем, и мы должны помогать друг другу", - сказал он.</p>
-            <a href="#" class="back-link">← Вернуться к списку новостей</a>
-        </div>
-    </div>
-
-    <!-- Modal 16 -->
-    <div id="modal16" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <h2>Открытие нового детского сада в микрорайоне Заречье</h2>
-            <p class="date">15 августа 2025 года</p>
-            <p>В этом месяце в микрорайоне Заречье открылся новый детский сад на 150 мест. Объект построен по современным стандартам с игровыми площадками, спортивным залом и медицинским блоком. Открытие состоялось 15 августа 2025 года.</p>
-            <p>15 августа 2025 года в микрорайоне Заречье Тулы открылся новый современный детский сад №78 на 150 мест. Объект построен по новым федеральным стандартам дошкольного образования и стал одним из самых современных в регионе. Здание площадью 3 200 кв. м. было построено за 18 месяцев с использованием экологически чистых материалов и энергоэффективных технологий.</p>
-            <p>Сад оснащен всем необходимым для полноценного развития детей: две игровые зоны с мягким покрытием, спортивный зал с батутами и скалодромом, музыкальный зал, логопедический кабинет, арт-студию, комнату психолога и медицинский блок с изолятором и процедурной. Все помещения оборудованы системами вентиляции с фильтрацией воздуха и автоматическим управлением освещением.</p>
-            <p>В саду работают 25 педагогов, включая учителей-дефектологов и логопедов. Образовательная программа основана на методике "Развитие через игру" и включает изучение английского языка, основ программирования для дошкольников и экологическое воспитание. В каждом возрастном отделении есть свои тематические зоны: "Мир природы", "Мир книг", "Мир творчества" и "Мир науки".</p>
-            <p>При открытии сада мэр Тулы Владимир Смирнов отметил: "Это не просто здание, это будущее наших детей. Мы создаем условия, где каждый ребенок сможет раскрыть свой потенциал". В саду уже записано 148 детей, в том числе 12 детей с ограниченными возможностями здоровья, для которых предусмотрены специальные условия.</p>
-            <p>В течение месяца планируется открытие родительского клуба и открытых дней для жителей микрорайона. Родители смогут посещать лекции по детскому здоровью, питанию и психологии. Также в саду будет работать садовый участок, где дети смогут выращивать овощи и цветы.</p>
-            <a href="#" class="back-link">← Вернуться к списку новостей</a>
-        </div>
-    </div>
-
-    <!-- Modal 17 -->
-    <div id="modal17" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <h2>В Туле прошел первый фестиваль волонтеров</h2>
-            <p class="date">25 сентября 2025 года</p>
-            <p>Более 500 волонтеров из разных районов города собрались на площади Ленина, чтобы обменяться опытом и представить свои проекты. Фестиваль стал ежегодным событием. Первый фестиваль прошел 25 сентября 2025 года.</p>
-            <p>25 сентября 2025 года на площади Ленина в Туле прошел первый в истории города Фестиваль волонтеров "Тула - добровольный город". Мероприятие собрало более 500 активистов из всех районов Тулы и близлежащих населенных пунктов, а также представителей волонтерских организаций из Москвы, Санкт-Петербурга и Калуги.</p>
-            <p>Фестиваль включал в себя презентацию более 40 волонтерских проектов: от помощи пожилым людям и ухода за животными до экологических инициатив и поддержки детей с ограниченными возможностями. Особенно популярным стал "Маршрут доброты" - интерактивная карта, где посетители могли выбрать, куда они хотят помочь, и получить контактные данные нуждающихся.</p>
-            <p>На площади были установлены павильоны с мастер-классами: от создания изделий из вторсырья до основ первой помощи, обучения работе с собаками-поводырями и организации благотворительных мероприятий. Гости фестиваля могли записаться на волонтерские практики и получить сертификаты.</p>
-            <p>Особое внимание уделили молодежи: более 200 студентов Тульского государственного университета и Тульского политехнического колледжа приняли участие в акции "День добрых дел". Они помогли убрать территорию парка, отремонтировали детские площадки и организовали бесплатные мастер-классы для детей из малообеспеченных семей.</p>
-            <p>Мэр Тулы Владимир Смирнов вручил благодарственные письма 15 лидерам волонтерских движений и объявил, что фестиваль станет ежегодным. "Волонтерство - это не помощь, это стиль жизни. И Тула уже стала городом, где добро - норма", - сказал он.</p>
-            <p>В рамках фестиваля был объявлен конкурс на лучший волонтерский проект региона с призовым фондом 500 000 рублей. Победителем стала команда "Свет надежды", которая помогает детям с онкологическими заболеваниями.</p>
-            <a href="#" class="back-link">← Вернуться к списку новостей</a>
-        </div>
-    </div>
-
-    <!-- Modal 18 -->
-    <div id="modal18" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <h2>Фестиваль тульского пряника</h2>
-            <p class="date">15-17 сентября 2025 года</p>
-            <p>15-17 сентября 2025 года, Центральный парк культуры и отдыха. Участие бесплатное. Программа: мастер-классы по выпечке, дегустации, выставка продукции, концерт народной музыки. Организаторы - Тульская торгово-промышленная палата.</p>
-            <p>Международный фестиваль тульского пряника пройдет в Центральном парке культуры и отдыха имени 50-летия Октября с 15 по 17 сентября 2025 года. В этом году в мероприятии примут участие более 80 производителей пряника из 15 регионов России, а также гости из Беларуси, Казахстана, Германии и Франции.</p>
-            <p>Главная особенность фестиваля этого года - конкурс "Самый большой пряник в мире". Участники будут соревноваться в создании пряника весом более 100 кг. Победителю вручают золотую медаль и сертификат на сумму 500 000 рублей. В прошлом году победил мастер из Тулы, создавший пряник весом 128 кг в форме герба города.</p>
-            <p>Программа фестиваля включает мастер-классы по лепке и печати пряника, дегустации с экспертами, выставку исторических рецептов, концерты народной музыки и ярмарку ремесленников. Особое внимание уделяется детской программе: дети смогут принять участие в конкурсе рисунков на прянике и создать свой собственный пряник под руководством опытных пекарей.</p>
-            <p>Организаторы фестиваля - Тульская торгово-промышленная палата совместно с Министерством культуры Тульской области. По данным организаторов, в прошлом году фестиваль посетили более 8 500 человек, а в этом году ожидают рекордное количество посетителей - более 12 000 человек.</p>
-            <p>Помимо традиционных пряников, будут представлены экзотические варианты: пряник с добавлением черного шоколада, пряник с имбирным элем, пряник с вишневым джемом и даже пряник с копченой рыбой. Для гостей будет работать специальная зона "Пряничный двор" с анимационными персонажами и фотозонами.</p>
-            <a href="#" class="back-link">← Вернуться к списку новостей</a>
-        </div>
-    </div>
-
-    <!-- Modal 19 -->
-    <div id="modal19" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <h2>Выставка "Тула и ее герои"</h2>
-            <p class="date">10-30 сентября 2025 года</p>
-            <p>10-30 сентября 2025 года, Тульский краеведческий музей. Экспозиция посвящена героям Великой Отечественной войны из Тульской области. Экспонаты из частных коллекций. Открытие состоится 10 сентября в 15:00.</p>
-            <p>С 10 по 30 сентября 2025 года в Тульском краеведческом музее откроется уникальная выставка "Тула и ее герои", посвященная героям Великой Отечественной войны, родившимся и жившим в Тульской области. Экспозиция собрала более 300 экспонатов из частных коллекций, включая личные вещи, фотографии, письма, награды и военную форму.</p>
-            <p>Особое внимание уделено рассказам о 12 тульчанах, удостоенных звания Героя Советского Союза, и 76 кавалерах ордена Красной Звезды. Впервые представлены архивные материалы из семейного архива семьи Павлова, чей сын, сержант Николай Павлов, был последним, кто взял флаг над Рейхстагом в Берлине в 1945 году.</p>
-            <p>Выставка включает интерактивные стенды с голосовыми воспоминаниями ветеранов, записанными в 2023 году, а также цифровые карты, показывающие маршруты боевых действий тульских воинов. Посетители смогут прочитать письма с фронта, написанные матерями, женами и детьми.</p>
-            <p>Организаторы выставки - Тульский краеведческий музей совместно с региональным отделением Общероссийского общественного движения "Память поколений". В экспозиции представлены редкие артефакты: солдатский фляжка с гравировкой, шинель с осколками, личный дневник медсестры, которая спасла более 200 раненых, и письмо от 13-летнего мальчика, который вместе с матерью работал на заводе в годы войны.</p>
-            <p>Открытие выставки состоится 10 сентября в 15:00. В программе - выступление ветеранов, концерт духового оркестра и презентация книги "Герои Тульской земли", изданной специально к этому событию. Посетители могут бесплатно пройти по выставке, а также заказать экскурсию для школьных групп.</p>
-            <a href="#" class="back-link">← Вернуться к списку новостей</a>
-        </div>
-    </div>
-
-    <!-- Modal 20 -->
-    <div id="modal20" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <h2>Концерт симфонического оркестра</h2>
-            <p class="date">22 сентября 2025 года</p>
-            <p>22 сентября 2025 года, Тульский областной театр оперы и балета. Дирижер - Сергей Петров. Программа: Чайковский, Рахманинов, Шостакович. Билеты доступны на официальном сайте театра.</p>
-            <p>22 сентября 2025 года в Тульском областном театре оперы и балета состоится гала-концерт симфонического оркестра под управлением известного дирижера Сергея Петрова. В программе - произведения трех великих русских композиторов: Петра Ильича Чайковского, Сергея Васильевича Рахманинова и Дмитрия Дмитриевича Шостаковича.</p>
-            <p>Концерт откроется знаменитым "Симфоническим танцем" Чайковского, затем последует "Рапсодия на тему Паганини" Рахманинова в исполнении пианиста Марии Соколовой, лауреата международных конкурсов. Завершит программу "Симфония №10" Шостаковича, одна из самых мощных и эмоциональных работ XX века, написанная в 1953 году.</p>
-            <p>Это первый концерт симфонического оркестра Тульской области в новом сезоне, и он приурочен к Дню города. Впервые за последние 10 лет в программе прозвучит редко исполняемая пьеса "Тульские мотивы" - симфоническая поэма, написанная в 1968 году местным композитором Алексеем Михайловым и долгое время забытая.</p>
-            <p>Симфонический оркестр Тульской области, созданный в 1948 году, насчитывает 85 музыкантов. В этом сезоне в состав входят молодые таланты из Москвы, Санкт-Петербурга и Казани. Дирижер Сергей Петров - выпускник Московской консерватории, лауреат премии "Золотая маска" и приглашенный дирижер Мариинского театра.</p>
-            <p>Билеты на концерт доступны на официальном сайте театра и в кассах. Цена билетов варьируется от 500 до 3 500 рублей. Для студентов и пенсионеров предусмотрены льготные места. Концерт начнется в 19:00, вход в зал начинается в 18:00. В фойе театра будет работать книжная ярмарка с изданиями о русской музыке и сувенирная лавка.</p>
-            <a href="#" class="back-link">← Вернуться к списку новостей</a>
-        </div>
-    </div>
-    
     <!-- Футер с контактной информацией -->
     <footer>
         <div class="footer-content">
@@ -1486,17 +1158,14 @@
                     <p><a href="#contacts">Контакты</a></p>
                 </div>
             </div>
-            
             <div class="social-links">
                 <a href="#" title="ВКонтакте">VK</a>
                 <a href="#" title="Telegram">TG</a>
                 <a href="#" title="Max">MAX</a>
             </div>
-            
             <p class="copyright">© 2025 Новости Тулы. Все права защищены. | Создано для информирования жителей Тульской области</p>
         </div>
     </footer>
-
     <script>
         // Работающий поиск
         document.getElementById('search-button').addEventListener('click', performSearch);
@@ -1505,16 +1174,13 @@
                 performSearch();
             }
         });
-        
         function performSearch() {
             const query = document.getElementById('search-input').value.trim().toLowerCase();
             const searchResults = document.getElementById('search-results');
-            
             if (query.length === 0) {
                 searchResults.style.display = 'none';
                 return;
             }
-            
             // Собираем все статьи со всей страницы
             const allArticles = [
                 ...document.querySelectorAll('.main-news-item'),
@@ -1522,57 +1188,45 @@
                 ...document.querySelectorAll('.russia-news-item'),
                 ...document.querySelectorAll('.section-item')
             ];
-            
             // Фильтруем статьи по запросу
             const results = allArticles.filter(item => {
                 const title = item.querySelector('h3') ? item.querySelector('h3').textContent.toLowerCase() : '';
                 const content = item.querySelector('p') ? item.querySelector('p').textContent.toLowerCase() : '';
                 return title.includes(query) || content.includes(query);
             });
-            
             // Очищаем предыдущие результаты
             searchResults.innerHTML = '<h2>Результаты поиска</h2>';
-            
             if (results.length > 0) {
                 results.forEach(item => {
                     const resultItem = document.createElement('div');
                     resultItem.className = 'search-item';
-                    
                     const title = item.querySelector('h3').cloneNode(true);
                     const content = item.querySelector('p').cloneNode(true);
                     const link = item.querySelector('.read-more') ? item.querySelector('.read-more').cloneNode(true) : document.createElement('span');
                     link.className = 'read-more';
                     link.innerHTML = 'Читать полностью →<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>';
                     link.setAttribute('data-modal', item.querySelector('.read-more')?.getAttribute('data-modal') || '');
-                    
                     resultItem.appendChild(title);
                     resultItem.appendChild(content);
                     resultItem.appendChild(link);
-                    
                     searchResults.appendChild(resultItem);
                 });
-                
                 searchResults.style.display = 'block';
-                
                 // Прокручиваем к результатам поиска
                 searchResults.scrollIntoView({ behavior: 'smooth' });
             } else {
                 searchResults.innerHTML += '<p>По вашему запросу ничего не найдено.</p>';
                 searchResults.style.display = 'block';
-                
                 // Прокручиваем к результатам поиска
                 searchResults.scrollIntoView({ behavior: 'smooth' });
             }
         }
-        
         // Плавная прокрутка к разделам
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
-                
                 const targetId = this.getAttribute('href');
                 const targetElement = document.querySelector(targetId);
-                
                 if (targetElement) {
                     window.scrollTo({
                         top: targetElement.offsetTop - 100,
@@ -1581,14 +1235,12 @@
                 }
             });
         });
-        
         // Обработка переходов по кнопкам меню
         document.querySelectorAll('.menu-button').forEach(button => {
             button.addEventListener('click', function(e) {
                 e.preventDefault();
                 const targetId = this.getAttribute('href');
                 const targetElement = document.querySelector(targetId);
-                
                 if (targetElement) {
                     window.scrollTo({
                         top: targetElement.offsetTop - 100,
@@ -1597,7 +1249,6 @@
                 }
             });
         });
-        
         // Модальные окна
         document.querySelectorAll('.read-more').forEach(button => {
             button.addEventListener('click', function(e) {
@@ -1610,7 +1261,6 @@
                 }
             });
         });
-        
         document.querySelectorAll('.close-modal').forEach(closeBtn => {
             closeBtn.addEventListener('click', function() {
                 const modal = this.closest('.modal');
@@ -1620,7 +1270,6 @@
                 }
             });
         });
-        
         // Закрытие модального окна при клике вне контента
         document.querySelectorAll('.modal').forEach(modal => {
             modal.addEventListener('click', function(e) {
@@ -1630,7 +1279,6 @@
                 }
             });
         });
-        
         // Закрытие модального окна при нажатии Escape
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') {
@@ -1640,7 +1288,6 @@
                 document.body.style.overflow = 'auto';
             }
         });
-        
         // Инициализация: если пользователь пришел на сайт с якорем, прокручиваем к нему
         window.addEventListener('load', function() {
             if (window.location.hash) {
@@ -1656,7 +1303,6 @@
                 }, 100);
             }
         });
-        
         // Обработка ссылок в модальных окнах
         document.querySelectorAll('.modal .back-link').forEach(link => {
             link.addEventListener('click', function(e) {
@@ -1670,6 +1316,4 @@
         });
     </script>
 </body>
-
 </html>
-

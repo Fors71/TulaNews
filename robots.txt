@@ -2,5 +2,6 @@ robots.txt
 User-agent: *
 Disallow:
 
-Sitemap: https://github.com/fors71/TulaNews/blob/main/sitemap.xml
+Sitemap: https://github.com/fors71/fors71.github.io/sitemap.xml
+
 

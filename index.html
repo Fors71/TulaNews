@@ -1193,11 +1193,21 @@
                 ...document.querySelectorAll('.russia-news-item'),
                 ...document.querySelectorAll('.section-item')
             ];
-            // Фильтруем статьи по запросу
+            // Фильтруем статьи по запросу и убираем дубликаты по тексту заголовка
+            const seenTitles = new Set();
             const results = allArticles.filter(item => {
-                const title = item.querySelector('h3') ? item.querySelector('h3').textContent.toLowerCase() : '';
-                const content = item.querySelector('p') ? item.querySelector('p').textContent.toLowerCase() : '';
-                return title.includes(query) || content.includes(query);
+            const title = item.querySelector('h3') ? item.querySelector('h3').textContent.toLowerCase() : '';
+            const content = item.querySelector('p') ? item.querySelector('p').textContent.toLowerCase() : '';
+        
+            // Если заголовок уже был, пропускаем
+            if (seenTitles.has(title)) {
+                return false;
+            }
+        
+            // Добавляем заголовок в набор уникальных
+            seenTitles.add(title);
+        
+            return title.includes(query) || content.includes(query);
             });
             // Очищаем предыдущие результаты
             searchResults.innerHTML = '<h2>Результаты поиска</h2>';
@@ -1322,5 +1332,6 @@
     </script>
 </body>
 </html>
+
 
 

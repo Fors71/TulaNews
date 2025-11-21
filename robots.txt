@@ -1,7 +1,4 @@
-robots.txt
 User-agent: *
-Disallow:
+Allow: /
 
-Sitemap: https://github.com/fors71/fors71.github.io/sitemap.xml
-
-
+Sitemap: https://fors71.github.io/sitemap.xml
